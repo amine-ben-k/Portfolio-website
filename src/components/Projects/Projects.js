@@ -14,6 +14,13 @@ import patientDocs from "../../Assets/Projects/patient-documents.png";
 import patientList from "../../Assets/Projects/patients-list.png";
 import scheduleApp from "../../Assets/Projects/schedule-appointment.png";
 import perscriptions from "../../Assets/Projects/perscriptions.png";
+import ecommerce1 from "../../Assets/Projects/e-commerce 1.png";
+import ecommerce2 from "../../Assets/Projects/e-commerce 2.png";
+import ecommerce3 from "../../Assets/Projects/e-commerce 3.png";
+import ecommerce4 from "../../Assets/Projects/e-commerce 4.png";
+import ecommerce5 from "../../Assets/Projects/e-commerce 5.png";
+import ecommerce6 from "../../Assets/Projects/e-commerce 6.png";
+import ecommerce7 from "../../Assets/Projects/e-commerce 7.png";
 
 function Projects() {
   return (
@@ -52,7 +59,7 @@ function Projects() {
                 - Database: Managed with PostgreSQL to securely store patient data, reports, and medical images.
                 `}
               ghLink="https://github.com/your-repo"
-              demoLink="https://your-demo-link.com"
+              // demoLink="https://your-demo-link.com"
             />
           </Col>
           <Col md={6} className="project-card">
@@ -83,10 +90,26 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPaths={[clinicHome, scheduleApp, calendar, patientList, appointmentDetails, patientDocs]}
+              imgPaths={[ecommerce1, ecommerce2, ecommerce3, ecommerce4, ecommerce5, ecommerce6, ecommerce7]}
               isBlog={false}
               title="E-Commerce Platform with AI Search"
-              description="Developed a feature-rich e-commerce platform with AI-driven neural search using Langchain and a vector database."
+              description={`
+                With the help of two other students, we developed a robust e-commerce platform featuring a responsive frontend 
+                and a powerful backend, integrating AI-driven search capabilities to optimize the user experience. 
+                We leveraged Langchain and a vector database for advanced neural search functionality. 
+                The platform enables both users and admins to manage key aspects of the e-commerce workflow.
+          
+                Key Features:
+                - User Functionalities: Shopping cart management, order tracking, detailed order history, and intelligent AI-powered search.
+                - Admin Functionalities: Inventory management, item addition, and comprehensive order overview.
+                - AI-Powered Search: Implemented smart search using Langchain and a vector database to enhance user experience 
+                  and provide relevant search results.
+          
+                Technologies Used:
+                - Frontend: Responsive design using HTML and CSS.
+                - Backend: C# ASP.NET for server-side logic and PostgreSQL for database management.
+                - AI Search: Langchain and vector database for advanced neural search.
+              `}      
               ghLink="https://github.com/YR973/Capstone-Project"
             />
           </Col>

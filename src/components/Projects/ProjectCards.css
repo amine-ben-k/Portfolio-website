@@ -1,0 +1,60 @@
+.slider-container {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+  }
+  
+  .slider-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Prevents cropping */
+    border-radius: 10px;
+  }
+  
+  /* Fix duplicate arrows issue */
+  .slick-prev, .slick-next {
+    display: none !important; /* Hides default slick arrows */
+  }
+  
+  /* Custom Arrow Styles */
+  .custom-prev-arrow, .custom-next-arrow {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    font-size: 24px !important;
+    color: white !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    padding: 8px 12px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    z-index: 10 !important;
+    display: block !important;
+    border: none;
+  }
+  
+  .custom-prev-arrow {
+    left: 10px !important;
+  }
+  
+  .custom-next-arrow {
+    right: 10px !important;
+  }
+  
+  .custom-prev-arrow:hover, .custom-next-arrow:hover {
+    background: rgba(255, 255, 255, 0.8) !important;
+    color: black !important;
+  }
+
+  .project-card-view p {
+    white-space: pre-line; /* Allows line breaks for long text */
+    word-wrap: break-word;
+  }
+  
+  

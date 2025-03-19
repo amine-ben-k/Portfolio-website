@@ -25,7 +25,7 @@ function Experiences() {
           <Col md={6} className="project-card">
             <ExperienceCards
               title="Freelancer - Full Stack Developer"
-              startDate="2022"
+              startDate="2023"
               endDate="Present"
               description="Designed and built custom web applications for various clients, including e-commerce platforms, clinic management system, and farm management sustem."
             //   certificate={}
@@ -36,7 +36,7 @@ function Experiences() {
           <Col md={6} className="project-card">
             <ExperienceCards
               title="Software Developer Intern - QMIC"
-              startDate="Oct 2024"
+              startDate="Nov 2024"
               endDate="Feb 2025"
               description="Worked on LLM projects and developed full-stack applications, integrating AI-driven solutions using React.js, Node.js, and PostgreSQL."
             //   certificate={qmicCert}

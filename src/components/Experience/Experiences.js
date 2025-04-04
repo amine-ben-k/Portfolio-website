@@ -4,7 +4,7 @@ import ExperienceCards from "./ExperienceCards";
 import Particle from "../Particle";
 import ooredooCert from "../../Assets/ooreedoo.png";
 import mrBitsCert from "../../Assets/internship evaluation.png";
-// import qmicCert from "../../Assets/qmic.png";
+import qmicCert from "../../Assets/Qmic.png";
 // import scramblebitCert from "../../Assets/scramblebit.png";
 
 function Experiences() {
@@ -32,6 +32,9 @@ function Experiences() {
               
               • Implemented an AI-based image summarization tool that reduced diagnostic processing time by 35%, enhancing decision-making efficiency.
               `}
+
+              certificate={qmicCert}
+
             />
           </Col>
 
@@ -40,7 +43,7 @@ function Experiences() {
             <ExperienceCards
               title="Backend Developer Intern - Ooredoo"
               startDate="July 2024"
-              endDate="Sep 2024"
+              endDate="Aug 2024"
               description={`• Designed and developed scalable backend APIs using Go and Node.js, optimizing data flow and improving system reliability.
               
               • Engineered and deployed containerized microservices using Docker and Kubernetes, improving system scalability and maintainability.
@@ -54,9 +57,9 @@ function Experiences() {
           {/* ScrambleBit Internship */}
           <Col md={6} className="project-card">
             <ExperienceCards
-              title="Full-Stack Developer Intern - ScrambleBit"
-              startDate="July 2024"
-              endDate="Aug 2024"
+              title="Full-Stack Developer Intern - ScrambleBit (Remote)"
+              startDate="Aug 2024"
+              endDate="Sep 2024"
               description={`• Developed a comprehensive Pharmacy Sales Management System, enhancing inventory tracking, sales processing, and reporting efficiency.
               
               • Built a secure and scalable backend using Node.js and PostgreSQL, integrating it with a React.js frontend.

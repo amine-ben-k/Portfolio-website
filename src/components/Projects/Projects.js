@@ -60,9 +60,7 @@ function Projects() {
                 This project was developed for a client
 
 
-                `}
-              ghLink="https://github.com/your-repo"
-              // demoLink="https://your-demo-link.com"
+                `}              // demoLink="https://your-demo-link.com"
             />
           </Col>
           <Col md={6} className="project-card">

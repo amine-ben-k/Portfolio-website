@@ -78,7 +78,7 @@ function Experiences() {
               endDate="Present"
               description={`• Designed and developed 20+ full-stack projects, including an AI-powered clinic system, an intelligent farm management platform, and a scalable e-commerce solution.
               
-              • Optimized database performance, improving query execution speed by 35% through indexing and query refactoring.
+              • Optimized database performance, improving query execution speed through indexing and query refactoring.
               
               • Implemented secure authentication using JWT, ensuring data security across all projects.
               `}

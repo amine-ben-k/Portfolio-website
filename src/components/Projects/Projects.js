@@ -60,7 +60,8 @@ function Projects() {
                 This project was developed for a client
 
 
-                `}              // demoLink="https://your-demo-link.com"
+                `}
+              // demoLink="https://your-demo-link.com"
             />
           </Col>
           <Col md={6} className="project-card">
@@ -91,7 +92,7 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPaths={[ecommerce1, ecommerce2, ecommerce3, ecommerce4,ecommerce8, ecommerce5, ecommerce6, ecommerce7]}
+              imgPaths={[ecommerce2, ecommerce3, ecommerce4,ecommerce8, ecommerce5, ecommerce6, ecommerce7]}
               isBlog={false}
               title="E-Commerce Platform with AI Search"
               description={`

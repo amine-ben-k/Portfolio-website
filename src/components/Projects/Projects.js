@@ -22,6 +22,13 @@ import ecommerce5 from "../../Assets/Projects/e-commerce 5.png";
 import ecommerce6 from "../../Assets/Projects/e-commerce 6.png";
 import ecommerce7 from "../../Assets/Projects/e-commerce 7.png";
 import ecommerce8 from "../../Assets/Projects/e-commerce 8.png";
+import farmApp1 from "../../Assets/Projects/farm1.png";
+import farmApp2 from "../../Assets/Projects/farm2.png";
+import farmApp3 from "../../Assets/Projects/farm3.png";
+import farmApp4 from "../../Assets/Projects/farm4.png";
+import farmApp5 from "../../Assets/Projects/farm5.png";
+import farmApp6 from "../../Assets/Projects/farm6.png";
+
 
 function Projects() {
   return (
@@ -39,8 +46,8 @@ function Projects() {
             <ProjectCard
               imgPaths={[clinicHome, scheduleApp, calendar, patientList, appointmentDetails,perscriptions, patientDocs]}
               isBlog={false}
-              title="AI-Powered Medical Clinic"
-              description={`Developed a full-stack medical website aimed at facilitating consultations and diagnostic support for doctors. This platform leverages cutting-edge AI tools such as Large Language Models (LLMs) to streamline patient care and enhance the accuracy of diagnoses.
+              title="AI-Powered Medical Clinic (Confidential)"
+              description={`Developed a full-stack medical website aimed at facilitating consultations and diagnostic support for doctors. This platform leverages cutting-edge AI tools such as Large Language Models (LLMs) to streamline patient care and enhance the accuracy of diagnoses. the pictures are from the DEMO version of the project.
                 
                 Key Features:
                 - Voice Recognition: Enables doctors to input patient data and medical notes through speech, improving efficiency during consultations.
@@ -89,6 +96,32 @@ function Projects() {
               ghLink="https://github.com/amine-ben-k/Labour-qatar-frontend"
             />
           </Col>
+
+          <Col md={6} className="project-card">
+  <ProjectCard
+    imgPaths={[farmApp1, farmApp2, farmApp3, farmApp4, farmApp5, farmApp6]} 
+    isBlog={false}
+    title="FarmApp – Farm Management Web Application"
+    description={`
+      Developed a full-stack farm management web application for a client to streamline agricultural operations and provide actionable insights for farm owners. The platform enables efficient tracking and management of farm resources, including equipment, workers, animals, crops, and schedules, through an intuitive and data-driven interface.
+
+      Key Features:
+      - Interactive Farm Dashboard: Displays key metrics such as total earnings, costs, profit, animal and crop counts, cost distribution, earnings breakdown, and profit trends over time.
+      - Responsive Sidebar Navigation: Implements a collapsible sidebar with dynamic routing, offering streamlined navigation for sections like Home and Schedule (single links) and dropdowns for Workers, Animals, Crops, and Equipments.
+      - Data Visualization: Integrates Chart.js to render visually appealing charts (e.g., pie charts for cost distribution, bar charts for earnings and profit).
+      - Resource Management System: Enables secure management of farm data, including equipment transactions, worker schedules, and operational costs.
+
+      Technologies Used:
+      - Frontend: Built using Next.js, React, and TypeScript for a responsive and type-safe user interface.
+      - Styling: Utilized Tailwind CSS for a modern, professional UI design.
+      - Data Visualization: Leveraged Chart.js for interactive charts.
+      - Database: Managed with PostgreSQL to securely store farm data.
+
+      This project was developed to enhance farm management efficiency, reducing manual tracking efforts and enabling data-driven decision-making for farmers.
+    `}
+    ghLink="https://github.com/amine-ben-k/farm-app" // Replace with actual GitHub link if available
+  />
+</Col>
 
           <Col md={6} className="project-card">
             <ProjectCard

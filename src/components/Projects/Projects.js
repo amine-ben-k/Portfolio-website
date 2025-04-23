@@ -55,15 +55,16 @@ function Projects() {
                 - LLM-powered Consultation: Provides medical insights and suggestions based on patient data and symptoms, offering real-time support for decision-making.
                 - Patient Management System: Securely manages patient records, including personal information, medical history, diagnostic tests, and treatment plans.
                 
-                Impact:  
-                This platform significantly reduces the time spent on manual data entry and analysis, allowing doctors to focus more on patient care. The combination of advanced AI features and user-friendly design ensures that healthcare professionals can deliver more accurate and efficient consultations.
-                
+
                 Technologies Used:
                 - Frontend: Built using React.js for a smooth and responsive user experience.
                 - Backend: Developed with Node.js and Express.js to handle API requests, data processing, and interactions with the LLM.
                 - LLM Integration: OpenAI and other LLM tools are used for voice recognition, image summarization, and consulation, providing powerful AI-driven insights.
                 - Database: Managed with PostgreSQL to securely store patient data, reports, and medical images.
 
+                Impact:  
+                This platform significantly reduces the time spent on manual data entry and analysis, allowing doctors to focus more on patient care. The combination of advanced AI features and user-friendly design ensures that healthcare professionals can deliver more accurate and efficient consultations.
+                
                 This project was developed for a client
 
 

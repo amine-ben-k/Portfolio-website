@@ -16,7 +16,7 @@ function Experiences() {
           My <strong className="purple">Experience</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are some of the professional experiences I've had.
+          {/* Here are some of the professional experiences I've had. */}
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
